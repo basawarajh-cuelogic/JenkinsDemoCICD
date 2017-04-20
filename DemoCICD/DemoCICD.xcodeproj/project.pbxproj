@@ -293,7 +293,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nikhil Ambekar (RAARKWRAJS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nikhil Ambekar (RAARKWRAJS)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -366,8 +367,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nikhil Ambekar (RAARKWRAJS)";
 				DEVELOPMENT_TEAM = FQWVPRQEN6;
 				INFOPLIST_FILE = DemoCICD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cuelogic.DemoCICD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -378,8 +381,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				DEVELOPMENT_TEAM = FQWVPRQEN6;
 				INFOPLIST_FILE = DemoCICD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cuelogic.DemoCICD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,7 +425,7 @@
 				65985ACF1EA8BFA7008D961C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		65985AD01EA8BFA7008D961C /* Build configuration list for PBXNativeTarget "DemoCICD" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +434,7 @@
 				65985AD21EA8BFA7008D961C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		65985AD31EA8BFA7008D961C /* Build configuration list for PBXNativeTarget "DemoCICDTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +443,7 @@
 				65985AD51EA8BFA7008D961C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
