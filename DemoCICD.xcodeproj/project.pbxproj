@@ -413,6 +413,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cuelogic.DemoCICDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoCICD.app/DemoCICD";
+				TREAT_MISSING_BASELINES_AS_TEST_FAILURES = NO;
 			};
 			name = Debug;
 		};
@@ -428,6 +429,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cuelogic.DemoCICDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoCICD.app/DemoCICD";
+				TREAT_MISSING_BASELINES_AS_TEST_FAILURES = NO;
 			};
 			name = Release;
 		};
